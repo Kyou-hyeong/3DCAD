@@ -1,5 +1,5 @@
 // import React, { useEffect, useRef } from 'react';
-import Canvas from './components/canvaus';
+import Canvas from './components/canvas';
 import Toolbar from './components/toolbar';
 function App() {
   return (
