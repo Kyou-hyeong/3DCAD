@@ -1,7 +1,6 @@
-// src/components/Canvas.tsx
 import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js'; // 경로 수정 확인
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 function Canvas() {
   const mountRef = useRef<HTMLDivElement>(null);
